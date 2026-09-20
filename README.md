@@ -17,7 +17,7 @@
 
 ## Стек
 
-Linux (Debian) · Python · MQTT · Modbus RTU/TCP · RS-485 · OPC UA
+Linux (Debian/Ubuntu) · Python · MQTT · Modbus RTU/TCP · RS-485 · OPC UA
 
 ## Структура репозитория
 
@@ -26,4 +26,5 @@ Linux (Debian) · Python · MQTT · Modbus RTU/TCP · RS-485 · OPC UA
 
 ## Статус
 
-Занятие 6 из 50. Сети предметно.
+Этап 1 закрыт: контроллер поднят с нуля — сеть, доступ по ключу, сервис под systemd,
+персистентный журнал. Дальше этап 2, MQTT.
