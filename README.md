@@ -26,4 +26,4 @@ Linux (Debian) · Python · MQTT · Modbus RTU/TCP · RS-485 · OPC UA
 
 ## Статус
 
-Занятие 4 из 50. Cервисы (systemd).
+Занятие 5 из 50. Права доступа.
