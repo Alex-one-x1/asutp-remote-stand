@@ -26,4 +26,4 @@ Linux (Debian) · Python · MQTT · Modbus RTU/TCP · RS-485 · OPC UA
 
 ## Статус
 
-Занятие 5 из 50. Права доступа.
+Занятие 6 из 50. Сети предметно.
