@@ -1,0 +1,14 @@
+[Unit]
+Description=Стенд: публикация телеметрии pi3 в MQTT
+After=network-online.target mosquitto.service
+Wants=network-online.target
+
+[Service]
+User=alex
+WorkingDirectory=/home/alex/stand
+ExecStart=/home/alex/stand/venv/bin/python -u /home/alex/stand/pub.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
