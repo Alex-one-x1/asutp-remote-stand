@@ -1,3 +1,13 @@
 * text=auto eol=lf
-# Auto detect text files and perform LF normalization
-* text=auto
+
+# CODESYS: бинарные, переводы строк не трогать
+*.project          binary
+*.projectarchive   binary
+*.library          binary
+*.compiled-library binary
+
+# картинки и документы
+*.png  binary
+*.jpg  binary
+*.pdf  binary
+*.docx binary

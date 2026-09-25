@@ -179,3 +179,10 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# CODESYS: файлы-спутники, не версионируем
+*.opt
+*.compileinfo
+*.bootinfo
+*.bootinfo_guids
+*.precompilecache
