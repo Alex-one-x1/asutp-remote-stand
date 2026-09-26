@@ -6,7 +6,7 @@ Wants=network-online.target
 [Service]
 User=alex
 WorkingDirectory=/home/alex/stand
-ExecStart=/home/alex/stand/venv/bin/python -u /home/alex/stand/pub.py
+ExecStart=/home/alex/stand/venv/bin/python -u /home/alex/stand/device.py
 Restart=always
 RestartSec=5
 
