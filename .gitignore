@@ -186,3 +186,4 @@ cython_debug/
 *.bootinfo
 *.bootinfo_guids
 *.precompilecache
+*.~u
